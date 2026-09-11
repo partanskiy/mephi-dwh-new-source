@@ -1,0 +1,21 @@
+# Параметры подключения и локальные настройки
+.env
+.env.*
+!.env.example
+.pgpass
+.pg_service.conf
+/_local/
+
+# Выгрузки из БД и журналы запусков
+/data/
+/dumps/
+/exports/
+*.dump
+*.backup
+*.log
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
+*~
