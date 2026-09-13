@@ -1,7 +1,6 @@
 # Параметры подключения и локальные настройки
 .env
 .env.*
-!.env.example
 .pgpass
 .pg_service.conf
 /_local/
@@ -19,3 +18,5 @@
 .vscode/
 .DS_Store
 *~
+__pycache__/
+*.py[cod]
